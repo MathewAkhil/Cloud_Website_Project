@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    width: 100%; /* makes header center aligned*/
+    float: right;
+    list-style-type: none;
+    margin-top: 25px; /* Set the distance from the top of the screen for the links on the top*/
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px; /*length and width of the boxes up top */
+    border: 1px solid transparent;
+    transition: 0.6s ease; /*Ease off with 0.6s in white box*/
+}
+
+ul li a:hover{
+    background-color: white; /*white color background when hovering over links*/
+    color: #000; /*black color text when hovering over links*/
+}
+
+ul li.active a{
+    background-color: white;
+    color: #000;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*puts the title in the top middle of the screen*/
+}
+
+.intro h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.welcome{
+    position:absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.welcome p{
+    color: white;
+    font-size: 20px;
+}

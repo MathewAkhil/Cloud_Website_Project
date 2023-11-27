@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-color:rgba(241,230,216);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ul{
+    width: 100%;
+    height: 10vh;
+    float: right;
+    list-style-type: none;
+    margin-top: 0px; /* Set the distance from the top of the screen for the links on the top*/
+    background-color: rgba(0,188,185);
+}
+
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px; /*length and width of the boxes up top */
+    border: 1px solid transparent;
+    transition: 0.6s ease; /*Ease off with 0.6s in white box*/
+}
+
+ul li a:hover{
+    background-color: white; /*white color background when hovering over links*/
+    color: #000; /*black color text when hovering over links*/
+}
+
+ul li.active a{
+    background-color: white;
+    color: #000;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.describeMe{
+    position:absolute;
+    top: 10%;
+    left: 0%;
+    /*transform: translate(-50%,-50%);*/
+}
+
+.describeMe p{
+    color: black;
+    font-size: 20px;
+}
+
+.myPicture{
+    position:absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.qualities{
+    font-size: 20px;
+}
+
+.myResume{
+    position:absolute;
+    top: 20%;
+    left: 40%;
+}
+
+/*.navigationBar{
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}*/
